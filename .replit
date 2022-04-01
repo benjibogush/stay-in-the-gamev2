@@ -1,5 +1,5 @@
 language = "kaboom"
-run = "node run.js"
+run = "node /home/runner/stay-in-the-gamev2/run.js"
 entrypoint = "code/main.js"
 
 hidden = [

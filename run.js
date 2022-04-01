@@ -1,6 +1,7 @@
 // kaboom dev server
 
 const fs = require("fs");
+var bodyParser = require('body-parser');
 const path = require("path");
 const esbuild = require("esbuild");
 const express = require("express");
