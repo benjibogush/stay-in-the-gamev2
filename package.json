@@ -2,7 +2,7 @@
 	"name": "kaboom-env",
 	"dependencies": {
 		"@replit/database": "^2.0.1",
-		"body-parser": "^1.19.2",
+		"body-parser": "^1.20.0",
 		"database-js": "^3.0.11",
 		"esbuild": "^0.14.13",
 		"express": "^4.17.3",

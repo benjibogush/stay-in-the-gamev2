@@ -2708,14 +2708,8 @@ vec4 frag(vec3 pos, vec2 uv, vec4 color, sampler2D tex) {
   play("background", {
     loop: true
   });
-  username = prompt("Player 1's Username");
-  username1 = prompt("Player 2's Username");
-  if (username === null || username === "") {
-    username = "NO USERNAME HUH?";
-  }
-  if (username1 === null || username1 === "") {
-    username1 = "NO USERNAME HUH?";
-  }
+  username = "tiger";
+  username1 = "rhino";
   function assets() {
     add([
       sprite("block"),

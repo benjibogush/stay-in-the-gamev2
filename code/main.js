@@ -30,16 +30,21 @@ play("background", {
     loop: true
 })    
 
-username = prompt("Player 1's Username")
-username1 = prompt("Player 2's Username")
+// create new function to randomly assign gamer ids.
 
-if (username === null || username === "") {
-    username = "NO USERNAME HUH?"
-}
+// username = prompt("Player 1's Username")
+// username1 = prompt("Player 2's Username")
 
-if (username1 === null || username1 === "") {
-    username1 = "NO USERNAME HUH?"
-}
+username = "tiger"
+username1 = "rhino"
+
+// if (username === null || username === "") {
+//     username = "wasp!"
+// }
+
+// if (username1 === null || username1 === "") {
+//     username1 = "ladybug"
+// }
 
 function assets() {
     add([ // block 1
